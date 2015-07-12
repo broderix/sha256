@@ -26,6 +26,7 @@ Note: when Node.js is detected, the Node [`Crypto`](http://nodejs.org/api/crypto
 There are two methods, one for computing the hash of the input, and one for double-hashing it:
 
 ```js
+var sha256 = require('sha256');
 sha256('hello');   // "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
 sha256.x2('hello'); // "d7914fe546b684688bb95f4f888a92dfc680603a75f23eb823658031fff766d9"
 ```
